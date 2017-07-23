@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #E4E9F4;
+}
+
+html ,body, .wrapper {
+    height: 100%;
+}
+
+
+.wrapper {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.slide, .content {
+    flex: 1;
+}
+
+
+.slide {
+    max-width: 300px;
+}
+
+
+.content {
+    padding: 20px;
+    background: #FFF;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+
+.slide div {
+    background: #FFF;
+    margin: 20px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+
+.slide img {
+    border-radius: 5px;
+    width: 260px;
+    height: 260px;
+}
